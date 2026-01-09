@@ -1,14 +1,11 @@
 import React from 'react';
-import JewelryNavbar from './components/JewelryNavbar';
-import AnalyticsPage from './components/AnalyticsPage';
+import AnalyticsDashboard from "./components/AnalyticsDashboard.jsx";
+
+
+import './App.css';
 
 function App() {
-  return (
-    <div className="bg-slate-50 min-h-screen">
-      <JewelryNavbar />
-      <AnalyticsPage />
-    </div>
-  );
+  return <AnalyticsDashboard />;
 }
 
 export default App;
