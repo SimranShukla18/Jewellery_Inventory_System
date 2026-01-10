@@ -3,7 +3,7 @@ import { DollarSign, ShoppingBag, Package, TrendingUp } from 'lucide-react';
 import Navbar from './Navbar';
 import KPICard from './KPICard';
 import SalesChart from './Charts/SalesChart';
-import InventoryChart from './Charts/InventoryChart';
+import InventoryChart from './Charts/KPICard';
 import RevenueChart from './Charts/RevenueChart';
 
 const AnalyticsDashboard = () => {
